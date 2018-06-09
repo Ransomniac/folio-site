@@ -1,0 +1,421 @@
+
+
+/* iPad */
+
+@media(min-width: 500px) {
+	#main-wrapper {
+		width: 100%;
+	}
+
+	/* Section B */
+
+	#section-b {
+		padding: 2em 0;
+	}
+
+
+	#section-b-wrapper {
+		width: 100%;
+	}
+
+	.row {
+		display: flex;
+		flex-wrap: wrap;
+		padding: 0 4px;
+	}
+
+	/* Create three equal columns that sit next to each other */
+	.column {
+		flex: 32%;
+		max-width: 33.3%;
+	}
+
+
+	.column img {
+		width: 100%;
+		margin-top: 8px;
+		vertical-align: middle;
+	}
+
+	#column-4, #column-5 {
+		display: none;
+	}
+
+	#column-1, #column-2, #column-3 {
+		display: initial;
+	}
+
+
+
+	/* Section D */
+	a.anchor {
+		top: -69px;
+	}
+
+	#contact-me address {
+		display: block;
+		margin-top: .5em;
+		font-size: 17px;
+		font-style: normal;
+	}
+}
+
+
+
+
+/* Desktop */
+
+@media(min-width: 750px) {
+
+
+	/* Navbar - Main	*/
+
+	.navbar-2 {
+		display: none;
+	}
+
+	.navbar-1 {
+		display: grid;
+		grid-template-columns: 70px 5fr 4fr 2fr;
+		grid-template-rows: 70px;
+		grid-gap: 1em;
+		align-items: center;
+		justify-items: start;
+		text-align: center;
+		background-color: rgba(25, 26, 28, 1);
+		padding: 0 0px;
+		position: fixed;
+		top: 0;
+		width: 100%;
+		height: 70px;
+		letter-spacing: 3px;
+		font-size: 14px;
+		line-height: 14px;
+		z-index: 99999;
+	}
+
+	.logo {
+		grid-column: 1;
+		margin: 18px 20px;
+	}
+
+	#logo {
+		width: 30px;
+		height: auto;
+	}
+
+	.main-nav {
+		grid-column: 2;
+		overflow: hidden;
+		white-space: nowrap;
+	}
+
+	.horizontal-menu a {
+		color: #fff;
+		display: inline-block;
+		text-decoration: none;
+		text-transform: uppercase;
+		text-align: center;
+		padding: 3px 5px;
+		margin: 0px 28px 0px 0px;
+		border-radius: 5px;
+		transition: .5s all ease-out;
+	}
+
+	.horizontal-menu a:hover {
+		color: rgba(47, 46, 46, 1);
+		background-color: #fff;
+		font-weight: 500;
+	}
+
+	.horizontal-menu a:active {
+		color: rgba(47, 46, 46, 1);
+		background-color: #fff;
+		font-weight: 500;
+	}
+
+
+	/* Navbar - Social Media */
+
+	.social-media {
+		grid-column: 4;
+		padding-right: 20px;
+		justify-self: end;
+		vertical-align: baseline;
+		white-space: nowrap;
+		display: block;
+		width: 350px;
+		height: 70px;
+	}
+
+	.social-media a {
+		display: inline-block;
+		float: right;
+		width: 10%;
+		height: 37px;
+		padding: 0;
+		margin-top: 17px;
+		align-content: center;
+		padding-left: 15px;
+	}
+
+	.social-media-icons {
+		height: 36px;
+		max-width: 48px;
+	}
+
+	#instagram-icon {
+		background: url("../images/instagram.png") no-repeat center;
+		background-size: 33px 33px;
+		align-self: center;
+		transition: .5s;
+	}
+
+	#youtube-icon {
+		background: url("../images/youtube.png") no-repeat center;
+		background-size: 33px 33px;
+		transition: .5s;
+	}
+
+	#twitter-icon {
+		background: url("../images/twitter.png") no-repeat center;
+		background-size: 33px 33px;
+		transition: .5s;
+	}
+
+
+
+	/*	Wrapper */
+
+	#transparentOverlay { /* If browser resized with accordion open, disable opacity overlay */
+		visibility: hidden;
+		transition: visibility 0s;
+	}
+
+	#main-wrapper {
+		margin-top: 70px;
+	}
+
+
+	/* Header Showcase */
+
+	#showcase {
+		height: 645px;
+	}
+
+	.banner-img {
+		height: 645px;
+	}
+
+	.text-wrapper:first-child {
+		padding-top: 155px;
+	}
+
+	.text-wrapper h1 {
+		padding-bottom: 0;
+		padding-top: 0;
+		width: 50%;
+		text-align: left;
+		font-size: 130px;
+		line-height: 115px;
+	}
+
+	.text-wrapper-small {
+		font-size: 22px;
+		line-height: 29px;
+		letter-spacing: 0px;
+		text-align: right;
+	}
+
+
+	/*	Section A */
+
+	#intro {
+		padding: 77px 0px 107px 0px;
+	}
+
+	#intro p {
+		width: 94%;
+   	max-width: 900px;
+		font-size: 28px;
+		font-weight: 300;
+		line-height: 40px;
+		padding: 0;
+	}
+
+
+	/* Services	*/
+
+	.services-wrapper {
+		 width: 94%;
+		 max-width: 1170px;
+		 margin: 0px auto;
+	}
+
+	.services-container {
+		display: flex;
+	}
+
+	.services-box {
+		width: 20.6%;
+		float: left;
+		margin-right: 5.86%;
+		text-align: center;
+		font-size: 15px;
+		color: #555555;
+		line-height: 25px;
+		margin-top: 0;
+	}
+
+	.services-box-last {
+		width: 20.6%;
+		float: left;
+		text-align: center;
+		font-size: 15px;
+		color: #555555;
+		line-height: 25px;
+	}
+
+	.services-icon {
+		display: block;
+		width: 112px;
+		height: 96px;
+		text-align: center;
+		padding-top: 16px;
+		margin: 0px auto;
+	}
+
+	.services-icon img {
+		display: inline-flex;
+	}
+
+	.services-webdesign {
+		background-image: none;
+		padding-left: 0;
+	}
+
+	.services-graphicdesign {
+		background-image: none;
+		padding-left: 0;
+	}
+
+	.services-animation {
+		background-image: none;
+		padding-left: 0;
+	}
+
+	.services-illustration {
+		background-image: none;
+		padding-left: 0;
+	}
+
+	#icon-webdesign img {
+		width: 73.2%;
+		max-width: 82px;
+	}
+
+	#icon-graphic img {
+		width: 79.2%;
+		max-width: 102px;
+	}
+
+	#icon-animation img {
+		width: 60.2%;
+		max-width: 102px;
+		height: 80%;
+	}
+
+	#icon-illustration img {
+		width: 70.2%;
+		max-width: 102px;
+	}
+
+
+	/*	Section B */
+
+
+	#section-b {
+		padding: 2em 1em 1em;
+		background: #f8fcff;
+	}
+
+
+	#section-b-wrapper {
+		width: 94%;
+		max-width: 1120px;
+		margin: 0px auto;
+	}
+
+	.row {
+		display: flex;
+		flex-wrap: wrap;
+		padding: 0 4px;
+	}
+
+	/* Create three equal columns that sit next to each other */
+	.column {
+		flex: 32%;
+		max-width: 33.3%;
+		padding: 0 4px;
+	}
+
+
+	.column img {
+		width: 100%;
+		margin-top: 8px;
+		vertical-align: middle;
+	}
+
+	#column-4, #column-5 {
+		display: none;
+	}
+
+	/*	Section D*/
+
+	a.anchor {
+		top: -69px;
+	}
+
+	.about-me-wrapper {
+		width: 756px;
+		margin: auto;
+		padding-bottom: 50px;
+	}
+
+	#avatar-wrapper {
+		width: 300px;
+	}
+
+
+
+	#contact-me-wrapper {
+		background: #333 url("../images/street.jpg");
+		background-repeat: no-repeat;
+		background-size: 1920px;
+		background-attachment: fixed;
+		background-position: center bottom;
+		width: 100%;
+	}
+
+
+	#contact-me {
+		width: 60%;
+		margin: auto;
+		padding-bottom: 10%;
+		padding-top: 10%;
+	}
+
+
+
+	/* Footer */
+
+	#main-footer div {
+		grid-column: 2/4;
+	}
+
+
+}
+/* End of Desktop media query*/
+
+
+
