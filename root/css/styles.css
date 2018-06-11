@@ -62,7 +62,7 @@ p {
 	top: 0;
 	width: 100%;
 	height: 50px;
-	background-color: rgba(25, 26, 28, 1);
+	background-color: #161a22;
 	letter-spacing: 3px;
 	font-size: 14px;
 	line-height: 14px;
@@ -320,7 +320,7 @@ p {
 /* Main */
 
 #main {
-	background: #c2e5f8;
+	background: #74afdb;
 	width: 100%;
 
 }
@@ -353,12 +353,17 @@ p {
 /* Services */
 
 .services-wrapper {
-	background: #c2e5f8;
+	background-color: #74afdb;
+	background-image: url(../images/mask.png);
+	background-position: top center;
+	background-repeat: repeat-x;
+	background-size: 1280px 13px;
+	padding: 25px 0;
 }
 
 .services-container {
-	margin: 25px 0;
 	padding: 1.3em;
+	color: white;
 }
 
 .services-box {
@@ -424,7 +429,8 @@ p {
 
 #section-b {
 	padding: 0 0 1em;
-	background: #f8fcff;
+	background: #f8fcff url(../images/mask3.png) top center repeat-x;
+	background-size: 1280px 13px;
 }
 
 
@@ -511,8 +517,8 @@ p {
 }
 
 .about-me-wrapper {
-	background: #c2e5f8;
-	color: #333;
+	background: #74afdb;
+	color: #191e27;
 }
 
 .about-me {
@@ -534,6 +540,7 @@ a.anchor {
 
 .about-me-wrapper p{
 	text-align: left;
+	color: white;
 }
 
 #contact-me-wrapper {
@@ -859,7 +866,7 @@ a.anchor {
 		align-items: center;
 		justify-items: start;
 		text-align: center;
-		background-color: rgba(25, 26, 28, 1);
+		background-color: #161a22;
 		padding: 0 0px;
 		position: fixed;
 		top: 0;
@@ -1032,13 +1039,16 @@ a.anchor {
 	/* Services	*/
 
 	.services-wrapper {
-		 width: 94%;
-		 max-width: 1170px;
-		 margin: 0px auto;
+
+
+
 	}
 
 	.services-container {
 		display: flex;
+		width: 94%;
+		max-width: 1270px;
+		margin: 0px auto;
 	}
 
 	.services-box {
@@ -1047,7 +1057,6 @@ a.anchor {
 		margin-right: 5.86%;
 		text-align: center;
 		font-size: 15px;
-		color: #555555;
 		line-height: 25px;
 		margin-top: 0;
 	}
@@ -1057,8 +1066,8 @@ a.anchor {
 		float: left;
 		text-align: center;
 		font-size: 15px;
-		color: #555555;
 		line-height: 25px;
+		margin-top: 0;
 	}
 
 	.services-icon {
@@ -1121,7 +1130,8 @@ a.anchor {
 
 	#section-b {
 		padding: 2em 1em 1em;
-		background: #f8fcff;
+		background: #f8fcff url(../images/mask3.png) top center repeat-x;
+		background-size: 1280px 13px;
 	}
 
 
