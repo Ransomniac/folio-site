@@ -107,7 +107,7 @@ p {
 	z-index: 1;
 	top: 0;
 	left: 0;
-	background-color: rgba(25, 26, 28, 1);
+	background-color: #161a22;
 	overflow-y: hidden;
 	transition: height .5s;
 	margin-top: 50px;
@@ -253,6 +253,7 @@ p {
 	background-color: black;
 	position: fixed;
 	transition: opacity .5s, visibility .5s;
+	z-index: 9999;
 }
 
 #main-wrapper {
@@ -514,10 +515,11 @@ p {
 
 #section-d h3 {
 	font-size: 1.4em;
+	padding-top: 1em;
 }
 
 .about-me-wrapper {
-	background: #74afdb;
+	background: #f8fcff;
 	color: #191e27;
 }
 
@@ -540,16 +542,17 @@ a.anchor {
 
 .about-me-wrapper p{
 	text-align: left;
-	color: white;
+	color: #74afdb;
 }
 
 #contact-me-wrapper {
-	background: #333 url("../images/street.jpg");
+	background: #333 url("../images/street2.jpg");
 	background-repeat: no-repeat;
-	background-size: 950px;
+	background-size: 1350px;
 	background-attachment: fixed;
 	background-position: bottom left;
 	width: 100%;
+	padding: 3em 0em;
 }
 
 #contact-me {
@@ -600,7 +603,7 @@ a.anchor {
 
 #main-footer {
 	padding: 1em;
-	background-color: rgba(25, 26, 28, 1);
+	background-color: #161a22;
 	color: #fff;
 	text-align: center;
 	font-size: 16px;
@@ -841,6 +844,10 @@ a.anchor {
 		margin-top: .5em;
 		font-size: 17px;
 		font-style: normal;
+	}
+
+	.about-me {
+		padding-bottom: 70px;;
 	}
 }
 
@@ -1181,14 +1188,18 @@ a.anchor {
 		width: 756px;
 		max-width: 90%;
 		margin: auto;
-		padding-bottom: 50px;
+		padding-bottom: 110px;
+	}
+
+	#avatar-wrapper {
+		margin-top: -150px;
 	}
 
 
 
 
 	#contact-me-wrapper {
-		background: #333 url("../images/street.jpg");
+		background: #333 url("../images/street2.jpg");
 		background-repeat: no-repeat;
 		background-size: 1920px;
 		background-attachment: fixed;
