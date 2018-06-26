@@ -429,7 +429,7 @@ p {
 /* Section B */
 
 #section-b {
-	padding: 0 0 1em;
+	padding: 3px 0 1em;
 	background: #f8fcff url(../images/mask3.png) top center repeat-x;
 	background-size: 1280px 13px;
 }

@@ -1,16 +1,16 @@
 - Down-size images (titanic and footer img)
-- Make Menu Button work
-- Make sure navbar links go to right places
-- Build sub pages
-- Make navbar social media links :hover more stark
-- Swap order of Navbar links to match flow of home page
++ Make Menu Button work
++ Make sure navbar links go to right places
++ Build sub pages
++ Make navbar social media links :hover more stark
++ Swap order of Navbar links to match flow of home page
 - Update Services descriptions so that they match what they're talking about
 - Compress animation trailer video
 - Add custom thumbnail to video using "poster" attribute
-- Change Services icons colour to match scheme better
-- Update Services icons to higher-res so look crisper on desktops
++ Change Services icons colour to match scheme better
++ Update Services icons to higher-res so look crisper on desktops
 - Update avatar so that it doesn't have white fringe on desktop view
-- Update gallery images so thumbnails are smaller sizes that link to bigger views
++ Update gallery images so thumbnails are smaller sizes that link to bigger views
 - Make professional e-mail
 - Update e-mail in Contact Me section  (in mailto link & underneath "Contact Me" button)
 - Fix it so that page doesn't haxe excess space on right side of screen in bigger windows
@@ -18,8 +18,8 @@
 - Make thumbnails for animation links into animated gifs
 - Make 2-column thumbnail gallery work
 - Make sure that website is "websitename.com" and not "websitename/root/index.html"
-- Get accordion menu working before coding every project page
-- Make sure when transferring accordion menu code to index.html to update href links so they direct to the right place
++ Get accordion menu working before coding every project page
++ Make sure when transferring accordion menu code to index.html to update href links so they direct to the right place
 - Stop /#url appearing in url name when clicking navbar menus
 - Make Title different font to rest of website
 - Make sure .offset value for "RANSOM" is updated for any sizing changes made throught out development
