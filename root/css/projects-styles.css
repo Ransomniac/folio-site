@@ -57,6 +57,13 @@ p {
 	display: inline-block;
 }
 
+#logo-2 {
+	width: 23px;
+	height: auto;
+	float: left;
+	display: inline-block;
+}
+
 .navbar-2 {
 	position: fixed;
 	top: 0;
@@ -211,7 +218,20 @@ p {
 	transition: .5s;
 }
 
+#instagram-icon-2 {
+	background: url("../images/instagram.png") no-repeat center;
+	background-size: 28px 28px;
+	align-self: center;
+	transition: .5s;
+}
+
 #youtube-icon {
+	background: url("../images/youtube.png") no-repeat center;
+	background-size: 28px 28px;
+	transition: .5s;
+}
+
+#youtube-icon-2 {
 	background: url("../images/youtube.png") no-repeat center;
 	background-size: 28px 28px;
 	transition: .5s;
@@ -223,7 +243,19 @@ p {
 	transition: .5s;
 }
 
+#twitter-icon-2 {
+	background: url("../images/twitter.png") no-repeat center;
+	background-size: 28px 28px;
+	transition: .5s;
+}
+
 #instagram-icon:hover {
+	background-image: url("../images/instagram-rollover.png");
+	cursor: pointer;
+	transition: .2s ease-in;
+}
+
+#instagram-icon-2:hover {
 	background-image: url("../images/instagram-rollover.png");
 	cursor: pointer;
 	transition: .2s ease-in;
@@ -235,7 +267,19 @@ p {
 	transition: .2s ease-in;
 }
 
+#twitter-icon-2:hover {
+	background-image: url("../images/twitter-rollover.png");
+	cursor: pointer;
+	transition: .2s ease-in;
+}
+
 #youtube-icon:hover {
+	background-image: url("../images/youtube-rollover.png");
+	cursor: pointer;
+	transition: .2s ease-in;
+}
+
+#youtube-icon-2:hover {
 	background-image: url("../images/youtube-rollover.png");
 	cursor: pointer;
 	transition: .2s ease-in;
@@ -333,6 +377,15 @@ p {
 
 
 .projects-img-landscape {
+	height: auto;
+	max-height: 800px;
+	max-width: 100%;
+	width: auto;
+	margin: auto;
+	box-shadow: 0px 2px 5px 0px #d1d9df;
+}
+
+.projects-img-blubburbs {
 	height: auto;
 	max-height: 800px;
 	max-width: 100%;
@@ -500,6 +553,11 @@ iframe {
 		height: auto;
 	}
 
+	#logo-2 {
+		width: 30px;
+		height: auto;
+	}
+
 	.main-nav {
 		grid-column: 2;
 		overflow: hidden;
@@ -568,13 +626,32 @@ iframe {
 		transition: .5s;
 	}
 
+	#instagram-icon-2 {
+		background: url("../images/instagram.png") no-repeat center;
+		background-size: 33px 33px;
+		align-self: center;
+		transition: .5s;
+	}
+
 	#youtube-icon {
 		background: url("../images/youtube.png") no-repeat center;
 		background-size: 33px 33px;
 		transition: .5s;
 	}
 
+	#youtube-icon-2 {
+		background: url("../images/youtube.png") no-repeat center;
+		background-size: 33px 33px;
+		transition: .5s;
+	}
+
 	#twitter-icon {
+		background: url("../images/twitter.png") no-repeat center;
+		background-size: 33px 33px;
+		transition: .5s;
+	}
+
+	#twitter-icon-2 {
 		background: url("../images/twitter.png") no-repeat center;
 		background-size: 33px 33px;
 		transition: .5s;
@@ -615,6 +692,14 @@ iframe {
 		margin: auto;
 	}
 
+	.projects-img-blubburbs {
+		position: relative;
+		height: auto;
+		max-width: 1000px;
+		width: 100%;
+		margin: auto;
+	}
+
 	.projects-img-portrait {
 		height: auto;
 		max-width: 1300px;
@@ -627,6 +712,10 @@ iframe {
 
 	.self-portrait {
 		max-width: 1100px;
+	}
+
+	.hannibal {
+		max-width: 990px;
 	}
 
 }
